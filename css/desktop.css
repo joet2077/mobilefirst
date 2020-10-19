@@ -36,6 +36,7 @@ header,
 .mainNav {
 	padding: 8px 0;
 	height: auto;
+	display: block;
    }
 
    .mainNav .row ul {
@@ -75,3 +76,54 @@ header,
  padding: 0 5px;
  flex-basis: 50%;
 }
+
+.logo {
+	padding: 5px 0px;
+	flex-basis: 85%;
+   }
+
+   .loginLinks {
+	flex-basis: 15%;
+   }
+   .search {
+	padding: 5px 0;
+	flex-basis: 40%;
+   }
+
+   header {
+	justify-content: flex-end;
+	padding: 0 0 0 5px;
+   }
+
+   .logo {
+	padding: 5px 0px;
+	flex-basis: 85%;
+	position: relative;
+   }
+   .logo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+   }
+
+   .loginLinks > ul {
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	justify-content: flex-end;
+   }
+   .loginLinks > ul > li {
+	border: 1px solid #000;
+   }
+   .loginLinks > ul > li:first-child {
+	margin-right: 4px;
+   }
+   .loginLinks > ul > li > a {
+	padding: 4px 2px;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+   }
+   
+   
