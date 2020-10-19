@@ -143,4 +143,19 @@ body {
     color: #fff;
     padding: 0 10px;
    }
+
+   /*fprm styles*/
+
+   label{
+       display: block;
+   }
+
+   input[type=text], input[type=email]{
+       width: 100%;
+       padding: 15px 10px;
+   }
+   
+   form > div{
+       margin-bottom: 20px;
+   }
  
